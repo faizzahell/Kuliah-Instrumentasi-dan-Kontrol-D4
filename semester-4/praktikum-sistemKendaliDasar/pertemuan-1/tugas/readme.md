@@ -136,7 +136,7 @@ Dengan menjalankan kode ini, Anda akan mendapatkan plot respons step dari sistem
 
 Bukti source code:
 
-![sourceCode](./src/images/sourcCode.png.png)
+![sourceCode](./src/images/sourceCode.png)
 
 
 
