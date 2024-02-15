@@ -1,6 +1,6 @@
 Tugas pertama mengenai sistem kendali Motor DC menggunakan PID pada MathLab
 
-![hasil1](/src/images/hasil1.png)
+![hasil1](./src/images/hasil1.png)
 
 kode pertama tanpa dipengaruhi PID:
 
@@ -21,7 +21,7 @@ ltiview('step', p_motor, 0:0.1:5);
 
 ```
 
-![hasil2](/src/images/hasil2.png)
+![hasil2](./src/images/hasil2.png)
 
 Kp membuat hasil output lebih mendekati nilai yang diinginkan, akan tetapi masih memiliki error, overshoot, dan osilasi yang besar.
 
@@ -49,7 +49,7 @@ grid
 
 ```
 
-![hasil3](/src/images/hasil3.png)
+![hasil3](./src/images/hasil3.png)
 
 Ki dapat mengurangi nilai error, tetapi overshoot dan nilai osilasi yang dihasilkan jauh lebih tinggi.
 
@@ -78,7 +78,7 @@ grid
 
 ```
 
-![hasil4](/src/images/hasil4.png)
+![hasil4](./src/images/hasil4.png)
 
 Kd dapat membuat nilai output yang stabil karena mampu untuk mengurangi overshoot dan osilasi, sehingga nilai output jauh lebih baik dan sesuai dengan yang diharapkan.
 
@@ -136,7 +136,7 @@ Dengan menjalankan kode ini, Anda akan mendapatkan plot respons step dari sistem
 
 Bukti source code:
 
-![sourceCode](/src/images/sourcCode.png.png)
+![sourceCode](./src/images/sourcCode.png.png)
 
 
 
