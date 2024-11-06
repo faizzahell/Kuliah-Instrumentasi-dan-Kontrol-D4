@@ -1,0 +1,1061 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.5792651744253935 -0.5792651581272686 -0.5735012940505968 4.183002214059016
+  position -1.9138820106512355e-07 0.06601105651701161 6.32940581399231
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+  size 3.25 2.75
+}
+Solid {
+  translation -1.15 0 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../geometrik.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 0.05 1.75 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 0.05 1.75 0.1
+      }
+    }
+  ]
+  name "wall"
+  model "wall"
+}
+Solid {
+  translation -1.6 0 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../gradient.jpeg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 0.05 2.75 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 0.05 2.75 0.1
+      }
+    }
+  ]
+  name "wall(24)"
+  model "wall"
+}
+Solid {
+  translation 1.6 0 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../gradient.jpeg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 0.05 2.75 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 0.05 2.75 0.1
+      }
+    }
+  ]
+  name "wall(25)"
+  model "wall"
+}
+Solid {
+  translation 0 -1.35 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../gradient.jpeg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 3.25 0.05 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 3.25 0.05 0.1
+      }
+    }
+  ]
+  name "wall(26)"
+  model "wall"
+}
+Solid {
+  translation 0 1.35 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../gradient.jpeg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 3.25 0.05 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 3.25 0.05 0.1
+      }
+    }
+  ]
+  name "wall(27)"
+  model "wall"
+}
+Solid {
+  translation 0.25 -0.9 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../geometrik.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 1.85 0.05 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 1.85 0.05 0.1
+      }
+    }
+  ]
+  name "wall(12)"
+  model "wall"
+}
+Solid {
+  translation -1 -0.9 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../geometrik.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 0.35 0.05 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 0.35 0.05 0.1
+      }
+    }
+  ]
+  name "wall(13)"
+  model "wall"
+}
+Solid {
+  translation -0.75 -0.15 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../geometrik.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 0.25 0.05 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 0.25 0.05 0.1
+      }
+    }
+  ]
+  name "wall(14)"
+  model "wall"
+}
+Solid {
+  translation -0.75 0.15 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../geometrik.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 0.25 0.05 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 0.25 0.05 0.1
+      }
+    }
+  ]
+  name "wall(15)"
+  model "wall"
+}
+Solid {
+  translation -1 0.9 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../geometrik.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 0.35 0.05 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 0.35 0.05 0.1
+      }
+    }
+  ]
+  name "wall(16)"
+  model "wall"
+}
+Solid {
+  translation 0.5 0.9 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../geometrik.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 0.35 0.05 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 0.35 0.05 0.1
+      }
+    }
+  ]
+  name "wall(22)"
+  model "wall"
+}
+Solid {
+  translation -0.25 0.9 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../geometrik.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 0.85 0.05 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 0.85 0.05 0.1
+      }
+    }
+  ]
+  name "wall(17)"
+  model "wall"
+}
+Solid {
+  translation -0.1 0.61 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../geometrik.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 0.55 0.05 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 0.55 0.05 0.1
+      }
+    }
+  ]
+  name "wall(18)"
+  model "wall"
+}
+Solid {
+  translation -0.1 0.15 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../geometrik.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 0.55 0.05 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 0.55 0.05 0.1
+      }
+    }
+  ]
+  name "wall(19)"
+  model "wall"
+}
+Solid {
+  translation -0.1 -0.15 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../geometrik.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 0.55 0.05 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 0.55 0.05 0.1
+      }
+    }
+  ]
+  name "wall(20)"
+  model "wall"
+}
+Solid {
+  translation 0.9 -0.6 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../geometrik.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 0.55 0.05 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 0.55 0.05 0.1
+      }
+    }
+  ]
+  name "wall(23)"
+  model "wall"
+}
+Solid {
+  translation 0 -0.61 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../geometrik.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 0.75 0.05 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 0.75 0.05 0.1
+      }
+    }
+  ]
+  name "wall(21)"
+  model "wall"
+}
+Solid {
+  translation 0.65 0.13 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../geometrik.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 0.05 1.5 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 0.05 1.5 0.1
+      }
+    }
+  ]
+  name "wall(7)"
+  model "wall"
+}
+Solid {
+  translation 0.35 0.13 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../geometrik.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 0.05 1.5 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 0.05 1.5 0.1
+      }
+    }
+  ]
+  name "wall(8)"
+  model "wall"
+}
+Solid {
+  translation -0.85 -0.5 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../geometrik.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 0.05 0.75 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 0.05 0.75 0.1
+      }
+    }
+  ]
+  name "wall(1)"
+  model "wall"
+}
+Solid {
+  translation -0.65 -0.5 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../geometrik.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 0.05 0.75 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 0.05 0.75 0.1
+      }
+    }
+  ]
+  name "wall(4)"
+  model "wall"
+}
+Solid {
+  translation -0.85 0.5 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../geometrik.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 0.05 0.75 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 0.05 0.75 0.1
+      }
+    }
+  ]
+  name "wall(2)"
+  model "wall"
+}
+Solid {
+  translation -0.65 0.5 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../geometrik.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 0.05 0.75 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 0.05 0.75 0.1
+      }
+    }
+  ]
+  name "wall(3)"
+  model "wall"
+}
+Solid {
+  translation -0.35 0.38 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../geometrik.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 0.05 0.5 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 0.05 0.5 0.1
+      }
+    }
+  ]
+  name "wall(5)"
+  model "wall"
+}
+Solid {
+  translation 0.15 0 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../geometrik.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 0.05 0.25 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 0.05 0.25 0.1
+      }
+    }
+  ]
+  name "wall(9)"
+  model "wall"
+}
+Solid {
+  translation 1.15 -0.75 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../geometrik.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 0.05 0.25 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 0.05 0.25 0.1
+      }
+    }
+  ]
+  name "wall(11)"
+  model "wall"
+}
+Solid {
+  translation 0.15 0.75 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../geometrik.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 0.05 0.25 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 0.05 0.25 0.1
+      }
+    }
+  ]
+  name "wall(10)"
+  model "wall"
+}
+Solid {
+  translation -0.35 -0.38 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../geometrik.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 0.05 0.5 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 0.05 0.5 0.1
+      }
+    }
+  ]
+  name "wall(6)"
+  model "wall"
+}
+E-puck {
+  translation -1.01 -0.75 0
+  rotation 0 0 1 1.5708
+  controller "arena_controllers"
+}

@@ -1,0 +1,271 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0943999999999994
+  position 5.6115313935794665e-06 5.611547261316453e-06 4.617083671462688
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+  size 2 2
+  tileSize 0.2 0.2
+}
+Wall {
+  translation -0.8 0 0
+  size 0.02 1.2 0.1
+}
+Wall {
+  translation -0.99 0 0
+  name "wall(20)"
+  size 0.02 2 0.1
+}
+Wall {
+  translation 0 0.99 0
+  name "wall(22)"
+  size 2 0.02 0.1
+}
+Wall {
+  translation 0 -0.99 0
+  name "wall(23)"
+  size 2 0.02 0.1
+}
+Wall {
+  translation 0.99 0 0
+  name "wall(21)"
+  size 0.02 2 0.1
+}
+Wall {
+  translation -0.41 0 0
+  name "wall(2)"
+  size 0.02 1.2 0.1
+}
+Wall {
+  translation -0.19 0.4 0
+  name "wall(8)"
+  size 0.02 0.4 0.1
+}
+Wall {
+  translation 0.19 0.4 0
+  name "wall(9)"
+  size 0.02 0.4 0.1
+}
+Wall {
+  translation 0.4 0.3 0
+  name "wall(10)"
+  size 0.02 0.2 0.1
+}
+Wall {
+  translation -0.01 0.3 0
+  name "wall(11)"
+  size 0.02 0.2 0.1
+}
+Wall {
+  translation -0.19 -0.5 0
+  name "wall(13)"
+  size 0.02 0.2 0.02
+}
+Wall {
+  translation -0.19 -0.1 0
+  name "wall(16)"
+  size 0.02 0.2 0.1
+}
+Wall {
+  translation 0 -0.22 0
+  name "wall(15)"
+  size 0.02 0.44 0.1
+}
+Wall {
+  translation 0.2 -0.47 0
+  name "wall(14)"
+  size 0.02 0.25 0.1
+}
+Wall {
+  translation 0.39 -0.3 0
+  name "wall(17)"
+  size 0.02 0.2 0.1
+}
+Wall {
+  translation 0.59 0.1 0
+  name "wall(5)"
+  size 0.02 1 0.1
+}
+Wall {
+  translation -0.61 -0.1 0
+  name "wall(1)"
+  size 0.02 1 0.1
+}
+Wall {
+  translation -0.61 0.59 0
+  name "wall(3)"
+  size 0.4 0.02 0.1
+}
+Wall {
+  translation 0.2 0.59 0
+  name "wall(6)"
+  size 0.8 0.02 0.1
+}
+Wall {
+  translation 0.1 -0.2 0
+  name "wall(7)"
+  size 0.6 0.02 0.1
+}
+Wall {
+  translation 0.19 0.21 0
+  name "wall(12)"
+  size 0.4 0.02 0.1
+}
+Wall {
+  translation 0.4 -0.01 0
+  name "wall(18)"
+  size 0.4 0.02 0.1
+}
+Wall {
+  translation 0.48 -0.39 0
+  name "wall(19)"
+  size 0.2 0.02 0.1
+}
+Wall {
+  translation 0.1 -0.59 0
+  name "wall(4)"
+  size 1 0.02 0.1
+}
+Solid {
+  translation 0.14048 0.0769997 0.04917815936182089
+  rotation 0.9521359006305153 0.3012890433348264 -0.05159592132041598 0.6305058443120701
+  children [
+    DEF BALL_GEOMETRY Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.05
+        subdivision 2
+      }
+    }
+  ]
+  boundingObject USE BALL_GEOMETRY
+  physics Physics {
+  }
+}
+Solid {
+  translation 0 -0.8 0.05
+  children [
+    DEF BOX_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/textures/wooden_box_base_color.jpg"
+          ]
+        }
+        roughnessMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/textures/wooden_box_roughness.jpg"
+          ]
+        }
+        metalness 0
+        normalMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/textures/wooden_box_normal.jpg"
+          ]
+        }
+        occlusionMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/textures/wooden_box_occlusion.jpg"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "wooden box"
+  model "wooden box"
+  boundingObject USE BOX_SHAPE
+}
+Solid {
+  translation 0.78 0.77 0.07
+  children [
+    DEF BOX_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/textures/wooden_box_base_color.jpg"
+          ]
+        }
+        roughnessMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/textures/wooden_box_roughness.jpg"
+          ]
+        }
+        metalness 0
+        normalMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/textures/wooden_box_normal.jpg"
+          ]
+        }
+        occlusionMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/textures/wooden_box_occlusion.jpg"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.15 0.15 0.15
+      }
+    }
+  ]
+  name "wooden box(1)"
+  model "wooden box"
+  boundingObject USE BOX_SHAPE
+}
+Solid {
+  translation -0.67 -0.83 0.1
+  children [
+    DEF BOX_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/textures/wooden_box_base_color.jpg"
+          ]
+        }
+        roughnessMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/textures/wooden_box_roughness.jpg"
+          ]
+        }
+        metalness 0
+        normalMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/textures/wooden_box_normal.jpg"
+          ]
+        }
+        occlusionMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/textures/wooden_box_occlusion.jpg"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.2 0.2 0.2
+      }
+    }
+  ]
+  name "wooden box(2)"
+  model "wooden box"
+  boundingObject USE BOX_SHAPE
+}
+E-puck {
+  translation 0 0.75 0
+}

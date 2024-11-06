@@ -1,0 +1,15 @@
+{
+  "C_Cpp.errorSquiggles": "disabled",
+  "files.associations": {
+    "iostream": "cpp",
+    "__split_buffer": "cpp",
+    "string": "cpp",
+    "vector": "cpp",
+    "__hash_table": "cpp",
+    "array": "cpp",
+    "bitset": "cpp",
+    "initializer_list": "cpp",
+    "string_view": "cpp",
+    "unordered_map": "cpp"
+  }
+}

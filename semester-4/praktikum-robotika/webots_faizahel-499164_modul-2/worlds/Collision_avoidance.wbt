@@ -1,0 +1,282 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0943999999999994
+  position -6.958134397736345e-06 -6.958154074572252e-06 6.619548617855257
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+  size 3.25 2.75
+}
+Solid {
+  translation -1.6 0 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../gradient.jpeg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 0.05 2.75 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 0.05 2.75 0.1
+      }
+    }
+  ]
+  name "wall(24)"
+  model "wall"
+}
+Solid {
+  translation 1.6 0 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../gradient.jpeg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 0.05 2.75 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 0.05 2.75 0.1
+      }
+    }
+  ]
+  name "wall(25)"
+  model "wall"
+}
+Solid {
+  translation 0 -1.35 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../gradient.jpeg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 3.25 0.05 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 3.25 0.05 0.1
+      }
+    }
+  ]
+  name "wall(26)"
+  model "wall"
+}
+Solid {
+  translation 0 1.35 0
+  children [
+    Solid {
+      translation 0 0 0.05
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "../gradient.jpeg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/roughcast/roughcast_normal.jpg"
+              ]
+            }
+            textureTransform TextureTransform {
+              scale 2.4 1
+            }
+          }
+          geometry Box {
+            size 3.25 0.05 0.1
+          }
+        }
+      ]
+      boundingObject Box {
+        size 3.25 0.05 0.1
+      }
+    }
+  ]
+  name "wall(27)"
+  model "wall"
+}
+WoodenBox {
+  translation -1.37 -1.01 0.12
+  size 0.25 0.25 0.25
+}
+WoodenBox {
+  translation -1.11 -0.49 0.12
+  name "wooden box(5)"
+  size 0.25 0.25 0.25
+}
+WoodenBox {
+  translation -0.49 -0.49 0.12
+  name "wooden box(6)"
+  size 0.25 0.25 0.25
+}
+WoodenBox {
+  translation 0.12 -0.49 0.12
+  name "wooden box(7)"
+  size 0.25 0.25 0.25
+}
+WoodenBox {
+  translation 0.74 -0.49 0.12
+  name "wooden box(8)"
+  size 0.25 0.25 0.25
+}
+WoodenBox {
+  translation 1.36 -0.49 0.12
+  name "wooden box(9)"
+  size 0.25 0.25 0.25
+}
+WoodenBox {
+  translation -0.86 -1.01 0.12
+  name "wooden box(1)"
+  size 0.25 0.25 0.25
+}
+WoodenBox {
+  translation -0.86 0.01 0.12
+  name "wooden box(10)"
+  size 0.25 0.25 0.25
+}
+WoodenBox {
+  translation -0.86 0.49 0.12
+  name "wooden box(15)"
+  size 0.25 0.25 0.25
+}
+WoodenBox {
+  translation 0.12 0.49 0.12
+  name "wooden box(16)"
+  size 0.25 0.25 0.25
+}
+WoodenBox {
+  translation 1.36 0.49 0.12
+  name "wooden box(17)"
+  size 0.25 0.25 0.25
+}
+WoodenBox {
+  translation 0.75 0.86 0.12
+  name "wooden box(18)"
+  size 0.25 0.25 0.25
+}
+WoodenBox {
+  translation 1.37 1.11 0.12
+  name "wooden box(19)"
+  size 0.25 0.25 0.25
+}
+WoodenBox {
+  translation -0.38 1.11 0.12
+  name "wooden box(20)"
+  size 0.25 0.25 0.25
+}
+WoodenBox {
+  translation -1.35 1.11 0.12
+  name "wooden box(21)"
+  size 0.25 0.25 0.25
+}
+WoodenBox {
+  translation -1.36 0.01 0.12
+  name "wooden box(14)"
+  size 0.25 0.25 0.25
+}
+WoodenBox {
+  translation -0.25 0.01 0.12
+  name "wooden box(11)"
+  size 0.25 0.25 0.25
+}
+WoodenBox {
+  translation 0.36 0.01 0.12
+  name "wooden box(12)"
+  size 0.25 0.25 0.25
+}
+WoodenBox {
+  translation 0.99 0.01 0.12
+  name "wooden box(13)"
+  size 0.25 0.25 0.25
+}
+WoodenBox {
+  translation -0.25 -1.01 0.12
+  name "wooden box(2)"
+  size 0.25 0.25 0.25
+}
+WoodenBox {
+  translation 0.37 -1.01 0.12
+  name "wooden box(3)"
+  size 0.25 0.25 0.25
+}
+WoodenBox {
+  translation 0.98 -1.01 0.12
+  name "wooden box(4)"
+  size 0.25 0.25 0.25
+}
+E-puck {
+  translation 1.38 -1.13 0
+  controller "epuck_avoid_collision"
+}
