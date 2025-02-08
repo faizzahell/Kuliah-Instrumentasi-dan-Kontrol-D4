@@ -1,0 +1,16 @@
+.dark {
+  background-color: #1a202c;
+  color: #f7fafc;
+}
+
+.login-container {
+  @apply flex justify-center items-center h-screen bg-gray-900 text-white;
+}
+
+.login-form {
+  @apply p-6 bg-gray-800 rounded-lg shadow-lg w-full max-w-md;
+}
+
+.leaflet-container {
+  background: #000
+}
